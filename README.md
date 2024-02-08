@@ -1,5 +1,11 @@
 # Personal Portfolio Website in React
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> e9be177dc31be53c1e6dea3acda0ebf2dde05d44
 
 Built using:
 
