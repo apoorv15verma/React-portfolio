@@ -568,52 +568,63 @@ span.navbar-text {
 @media (max-width:767px) {
 
   
+/* Set max-width to container and adjust padding */
+.main .container {
+  max-width: 100%;
+  padding: 0 20px; /* Adjust the padding as needed */
+}
 
+/* Adjust padding for navbar */
+nav.navbar {
+  padding: 15px 0;
+}
 
-	main .container {
-		max-width: 100%;
-		padding: 0 150px;
-	}
+/* Adjust margin for logo */
+nav.navbar .logo {
+  width: 170px;
+  margin: 5px 0; /* Adjust the margin as needed */
+}
 
-  nav.navbar{
-    padding: 15px 0px;
-   
-  }
+/* Use a more specific selector for navbar links */
+nav.navbar .navbar-link {
+  font-weight: 400;
+  color: #fff !important;
+  text-decoration: none;
+  letter-spacing: 0.8px;
+  padding: 0 10px;
+  font-size: 18px;
+  opacity: 0.75;
+  transition: opacity 0.3s ease-in-out; /* Add transition for opacity on hover */
+}
 
+/* Adjust styling for project links */
+.project .nav.nav-pills .nav-link {
+  background-color: transparent;
+  border-radius: 0;
+  padding: 12px 0 10px;
+  color: #fff;
+  width: 100%;
+  height: 80px;
+  font-size: 17px;
+  letter-spacing: 0.8px;
+  font-weight: 500;
+  position: relative;
+  transition: background-color 0.3s ease-in-out; /* Add transition for background-color on hover */
+  text-align: center;
+  z-index: 0;
+  margin: auto;
+}
 
-  nav.navbar .logo{
-    width: 170px;
-    margin: 5px;
-  }
+/* Add hover effect for navbar links */
+nav.navbar .navbar-link:hover {
+  opacity: 1;
+}
 
-  .navbar-link  {
-    font-weight: 400;
-    color: #fff !important;
-    text-decoration: none;
-    letter-spacing: 0.8px;
-    padding: 0 10px;
-    font-size: 18px;
-    opacity: 0.75;
-  
-  }
-  
-  .project .nav.nav-pills .nav-link {
-    background-color: transparent;
-    border-radius: 0;
-    padding: 12px 0px 10px ;
-    color: #fff;
-    width: 100%;
-    height: 80px;
-    font-size: 17px;
-    letter-spacing: 0.8px;
-    font-weight: 500;
-    position: relative;
-    transition: 0.3s ease-in-out;
-    text-align: center;
-    z-index: 0;
-    margin: auto;
- 
-  }
+/* Add hover effect for project links */
+.project .nav.nav-pills .nav-link:hover {
+  background-color: #YourHoverColor; /* Replace with the desired hover color */
+}
+
 
  
   
